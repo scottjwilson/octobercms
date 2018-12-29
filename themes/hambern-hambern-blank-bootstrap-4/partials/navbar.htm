@@ -5,11 +5,19 @@ description = "Navigation bar"
 		<div class="container">
 			<a class="navbar-brand" href="{{ 'features'|page }}">Bootstrap 4</a>
 			<ul class="nav navbar-nav pull-xs-right">
-				<li class="nav-item{{ this.page.baseFileName == 'features' ? ' active' }}">
-					<a class="nav-link" href="{{ 'features'|page }}">Features</a>
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
 				</li>
-				<li class="nav-item{{ this.page.baseFileName == 'author' ? ' active' }}">
-					<a class="nav-link" href="{{ 'author'|page }}">Author</a>
+				<li class="nav-item{{ this.page.baseFileName == 'shows' ? ' active' }}">
+					<a class="nav-link" href="{{ 'shows'|page }}">Shows</a>
+				</li>
+				
+				<li class="nav-item{{ this.page.baseFileName == 'merch' ? ' active' }}">
+					<a class="nav-link" href="{{ 'merch'|page }}">Merch</a>
+				</li>
+				
+				<li class="nav-item{{ this.page.baseFileName == 'music' ? ' active' }}">
+					<a class="nav-link" href="{{ 'music'|page }}">Music</a>
 				</li>
 			</ul>
 		</div>
